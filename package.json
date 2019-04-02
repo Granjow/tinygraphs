@@ -1,6 +1,6 @@
 {
-  "name": "tinygraph",
-  "version": "1.0.0",
+  "name": "tinygraphs",
+  "version": "0.9.0",
   "description": "",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -14,6 +14,10 @@
   },
   "author": "Simon A. Eugster <simon.eu@gmail.com>",
   "license": "ISC",
+  "keywords": [
+    "dag",
+    "graph"
+  ],
   "dependencies": {
     "@types/node": "^11.13.0",
     "typescript": "^3.4.1"

@@ -2,7 +2,7 @@ import { DirectedGraph } from './directed-graph';
 import { UndirectedGraph } from './undirected-graph';
 
 
-export const Tinygraph = {
+export const Tinygraphs = {
     DirectedGraph: DirectedGraph,
     UndirectedGraph: UndirectedGraph,
 };
