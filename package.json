@@ -10,10 +10,20 @@
   ],
   "scripts": {
     "test": "jasmine",
-    "tsc": "tsc"
+    "prepack": "rm -rf dist && npm run build",
+    "prepublishOnly": "npm run test",
+    "build": "tsc"
   },
   "author": "Simon A. Eugster <simon.eu@gmail.com>",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Granjow/tinygraphs.git"
+  },
+  "homepage": "https://github.com/Granjow/tinygraphs#readme",
+  "bugs": {
+    "url": "https://github.com/Granjow/tinygraphs/issues"
+  },
+  "license": "mit",
   "keywords": [
     "dag",
     "graph"
