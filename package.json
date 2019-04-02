@@ -1,0 +1,26 @@
+{
+  "name": "tinygraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src/*",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "jasmine",
+    "tsc": "tsc"
+  },
+  "author": "Simon A. Eugster <simon.eu@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.13.0",
+    "typescript": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.12",
+    "jasmine": "^3.3.1",
+    "jasmine-core": "^3.3.0"
+  }
+}
